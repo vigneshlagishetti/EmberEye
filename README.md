@@ -113,6 +113,11 @@ Key scripts in `src/`:
 - `finalize_model.py` — create `models/final_detector.joblib`
 - `leakage_scan*` — leakage detection and MI analysis
 
+<div align="center">
+
+
+</div>
+
 ## 🔍 Diagnostics & results
 
 Canonical result files (examples):
@@ -191,6 +196,7 @@ git lfs pull
 ```
 
 Notes
+
 - GitHub enforces LFS storage/bandwidth quotas. Monitor usage in the repository’s Settings → Packages/LFS. If you exceed quota, pushes/pulls of LFS objects may be blocked until you reduce usage or add capacity.
 - If you see “file exceeds 100 MB” or “LFS bandwidth exceeded” errors, ensure LFS is installed, consider pruning old large artifacts, or move heavy assets to external storage.
 
@@ -202,4 +208,5 @@ Contributions welcome — open an issue or submit a PR. Please include reproduci
 
 Educational / research use. See `LICENSE` if included.
 
-Made with ❤️ from Sai Meghana
+
+🌟 Made with ❤️ by `<strong>`Sai Meghana `</strong>` 🌟
