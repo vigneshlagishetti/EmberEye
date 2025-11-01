@@ -113,10 +113,7 @@ Key scripts in `src/`:
 - `finalize_model.py` — create `models/final_detector.joblib`
 - `leakage_scan*` — leakage detection and MI analysis
 
-<div align="center">
-
-
-</div>
+<!-- Center credit moved to end -->
 
 ## 🔍 Diagnostics & results
 
@@ -208,5 +205,7 @@ Contributions welcome — open an issue or submit a PR. Please include reproduci
 
 Educational / research use. See `LICENSE` if included.
 
+<!-- vignesh -->
 
-🌟 Made with ❤️ by `<strong>`Sai Meghana `</strong>` 🌟
+| 🌟 Made with ❤️ by **Sai Meghana** 🌟 |
+| :--------------------------------------------: |
