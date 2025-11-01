@@ -75,5 +75,13 @@ mlruns/
 .qoder/rules/byterover-rules.md
 .augment/rules/byterover-rules.md
 
+############################
+# Docs & PDFs (local-only)
+############################
+# Ignore the long MANET/ABA paper PDF kept locally at repo root
+Adaptive-Voting-Mechanism-with-Artificial-Butterfly-Algorithm-based-Feature-Selection-for-IDS-in-MANET.pdf
 
-C:\ECHO\Projects\Personal_Projects\Fruty\Adaptive-Voting-Mechanism-with-Artificial-Butterfly-Algorithm-based-Feature-Selection-for-IDS-in-MANET.pdf
+# Ignore the detailed full report if generated locally
+README_FULL.md
+readme_full.md
+
