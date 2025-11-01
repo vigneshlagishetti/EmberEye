@@ -205,7 +205,7 @@ Contributions welcome — open an issue or submit a PR. Please include reproduci
 
 Educational / research use. See `LICENSE` if included.
 
-<!-- vignesh -->
+<!-- dmlnbmVzaA== -->
 
-| 🌟 Made with ❤️ by **Sai Meghana** 🌟 |
-| :--------------------------------------------: |
+| 🌟 Made with ❤️ by**Sai Meghana** 🌟 |
+| :------------------------------------------: |
