@@ -177,6 +177,23 @@ Recommendation: CatBoost selected for production due to reproducible metrics, ea
 - Produce a per-model comparison table by extracting metrics from `results/*.json` and add it to `README_FULL.md`.
 - Add CI/GitHub Actions smoke test to validate model loading and a tiny inference check.
 
+## 🗂️ Git LFS (large files)
+
+This repository tracks large assets with Git LFS (dataset and model bundles):
+
+- Tracked via LFS: `combine.csv`, `models/*.joblib`, `data/processed/*.npz`
+
+Collaborators — do this once after cloning:
+
+```cmd
+git lfs install
+git lfs pull
+```
+
+Notes
+- GitHub enforces LFS storage/bandwidth quotas. Monitor usage in the repository’s Settings → Packages/LFS. If you exceed quota, pushes/pulls of LFS objects may be blocked until you reduce usage or add capacity.
+- If you see “file exceeds 100 MB” or “LFS bandwidth exceeded” errors, ensure LFS is installed, consider pruning old large artifacts, or move heavy assets to external storage.
+
 ## 🤝 Contributing
 
 Contributions welcome — open an issue or submit a PR. Please include reproducible tests for code changes.

@@ -220,3 +220,20 @@ Or open the notebook and run the SHAP cells interactively to review and save plo
 
 - The numeric metrics above come from sampled diagnostics and a single production training run from this session. They reflect the runs we produced in the working environment; if you cannot find the `results/*.json` files in your copy of the workspace I can re-run diagnostics and populate them.
 - Large full re-training and exhaustive stacked ensemble evaluation were explored but not selected as the primary artifact because they increase operational complexity. If you want a production ensemble, we should plan for latency, model serving changes, and A/B testing infrastructure.
+
+## Appendix: Git LFS (large files)
+
+Some assets exceed GitHub’s normal 100 MB file limit and are stored with Git LFS.
+
+- Tracked via LFS: `combine.csv`, `models/*.joblib`, `data/processed/*.npz`
+
+Collaborators — run after cloning (Windows cmd):
+
+```cmd
+git lfs install
+git lfs pull
+```
+
+Notes
+- GitHub enforces LFS storage and bandwidth quotas. Check usage in repo Settings → Packages/LFS. If a quota is exceeded, pushes/pulls of LFS objects may be blocked until usage is reduced or capacity is added.
+- If you see “file exceeds 100 MB” or “LFS bandwidth exceeded” errors, ensure LFS is installed, prune unneeded artefacts, or move very large files to external storage.
