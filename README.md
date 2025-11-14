@@ -126,8 +126,15 @@ Canonical result files (examples):
 Key reported snapshot (from results):
 
 - best_threshold: 0.496
-- accuracy ≈ 0.9990
-- roc_auc ≈ 0.99996
+- best_accuracy: 0.9990456665131303 (≈ 99.9046%)
+- roc_auc: 0.9999598440131221 (≈ 0.99996)
+- confusion matrix (at best threshold): [[250691, 234], [83, 81161]]
+- CV (sampled 5-fold on 100k rows): mean accuracy = 0.99872 (std = 0.00019)
+
+Other candidate models / ensembles (examples):
+- Best saved non-CatBoost stack/blend: accuracy ≈ 0.9758250532292406 (≈ 97.58%)
+
+Sources (ground truth): `results/catboost_raw_results.json`, `results/catboost_checks.json`, `results/final_comparison_report.md`, `results/blend_results.json`
 
 Use the JSON files in `results/` as the ground truth for reported numbers and audits.
 
